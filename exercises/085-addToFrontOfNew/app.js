@@ -1,5 +1,6 @@
 function addToFrontOfNew(arr, element) {
     // your code here
+    return arr.unshift(element)
     
 }
 

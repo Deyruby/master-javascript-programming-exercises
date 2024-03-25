@@ -1,4 +1,8 @@
-function getProperty(obj, key) {
+
+
+
+function getProperty(toyota, marca) {
   // your code here
-  
+  return toyota[marca]
 }
+

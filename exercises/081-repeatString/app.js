@@ -1,5 +1,7 @@
 function repeatString(string, num) {
     // your code here
+    let repeat = string.repeat(num)
+    return repeat;
     
 }
 
