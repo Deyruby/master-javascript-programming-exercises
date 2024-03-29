@@ -1,6 +1,9 @@
 function getElementOfArrayProperty(obj, key, index) {
     // your code here
-
+    if (!obj[key]  || obj[key].length === 0  || !typeof obj[key] === 'array'  || obj[key][index] >= obj[key].length){
+        return undefined
+    }
+return obj[key][index]
 }
 
 let obj = {

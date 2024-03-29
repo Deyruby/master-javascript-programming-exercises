@@ -1,5 +1,10 @@
 function getOddElementsAtProperty(obj, key) {
     // your code here
+    if (obj[key].length == 0 || !typeof obj[key] === 'array' || !obj[key]) {
+      return [];
+    }
+     
+    return obj[key].filter(element => element.length % 2 >0)
     
 }
 
