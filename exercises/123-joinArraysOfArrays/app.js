@@ -1,6 +1,6 @@
 function joinArrayOfArrays(arr) {
   // your code here
-  
+  return 
 }
 
 let output = joinArrayOfArrays([
